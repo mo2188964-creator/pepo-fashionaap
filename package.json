@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "ionic:build": "vite build && npx cap add android",
-
+    "ionic:build": "vite build && npx capacitor android add || true",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
